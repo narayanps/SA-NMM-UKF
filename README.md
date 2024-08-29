@@ -22,6 +22,16 @@ SAFE toolbox (https://safetoolbox.github.io/) is needed to perform the morris an
    - Transition to seizure is characterized by a decrease in average B.
    - High-frequency activity during seizures is associated with an increase in b.
 
+## Citation
+
+@article{YourCitation2024,
+  title={Sensitivity analysis guided Bayesian parameter estimation for neural mass models : Applications in Epilepsy},
+  author={Puthanmadam Subramaniyam, Narayan and Hyttinen, Jari},
+  journal={Physical Review E},
+  year={2024}
+}
+
+
 MIT License
 
 Copyright (c) 2024 [Your Name]
