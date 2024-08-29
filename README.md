@@ -2,12 +2,13 @@
  This repository contains the code and analysis used in our study on the parameter sensitivity of the Jansen and Rit Neural Mass Model (JR-NMM) for estimating neural parameters from EEG data. The JR-NMM is a well-established model for simulating the mesoscopic and macroscopic dynamics of electroencephalography (EEG), including epileptic EEG. However, the high dimensionality of the model and the uncertainty in estimating its parameters pose significant challenges. This project aims to identify the most sensitive parameters within the JR-NMM and develop a reliable method for their estimation.
 
  ## Repository structure and usage
- /func contains all the necessary functions to perform sensitivity analysis and parameter estimation
- run_jr_sim.m  - runs JR-NMM simulation for a given combination of input parameters
- run_morris_analysis - performs morris SA
- run_sonol_analysis - performs sobol SA
- test_real_data_human - estimates the parameters B and b from epileptic datasets. The datasets can be down loaded from http://ieeg-swez.ethz.ch/
+ 1. /func contains all the necessary functions to perform sensitivity analysis and parameter estimation
+ 2. run_jr_sim.m  - runs JR-NMM simulation for a given combination of input parameters
+ 3. run_morris_analysis - performs morris SA
+ 4. run_sonol_analysis - performs sobol SA
+ 5. test_real_data_human - estimates the parameters B and b from epileptic datasets. The datasets can be down loaded from http://ieeg-swez.ethz.ch/
 
+SAFE toolbox (https://safetoolbox.github.io/) is needed to perform the morris analysis which we have modified to incorporate parallelization . A part of CODES toolbox (https://codes.arizona.edu/toolbox/help/html/sobol.html) has been used/modified to perform sobol analysis.
  ## Key Contributions
 
 1. **Parameter Sensitivity Analysis**  
